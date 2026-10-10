@@ -1,30 +1,48 @@
-#HIV-1 Drug Resistance Analysis
-This repository contains R and Python scripts used in the associated HIV-1 research study.
+HIV-1 Drug Resistance and Phylogenetic Analysis
+This repository contains R and Python scripts used in the study:
 
-Included analyses
-1. Sequence-wise NRTI and NNRTI resistance profiles
-R script used to generate sequence-wise resistance profile plots for HIV-1 drug resistance mutations.
+"Molecular characterization of HIV-1 and reverse transcriptase drug resistance patterns from Faisalabad, an emerging HIV hotspot in Pakistan"
 
-2. Comparison of CD4 count and viral load between ART-experienced and ART-naive participants
-R script used for statistical analyses and generation of summary tables using the gtsummary package.
+Contents
+1. Sequence-wise NRTI and NNRTI Resistance Profiles
+Language: R
 
-Methods:
+This script generates sequence-wise resistance profile plots for NRTI and NNRTI drug resistance mutations in HIV-1 sequences.
+
+2. Comparison of CD4 Count and Viral Load Between ART-experienced and ART-naive Participants
+Language: R
+
+This script performs statistical analyses and generates summary tables using the gtsummary package.
+
+Methods
 
 Median (Q1, Q3)
 Wilcoxon rank-sum test
-3. Zero-fold mutation profile of the E138A-positive subtype A cluster
-Python script used to identify and visualize protein-changing (zero-fold) mutations in HIV-1 pol sequences.
+3. Zero-fold Mutation Profile of the E138A-positive Subtype A Cluster
+Language: Python
 
-4. Phylogenetic analysis
-IQ-TREE command file used for maximum-likelihood phylogenetic reconstruction.
+This script identifies and visualizes protein-changing (zero-fold) mutations in HIV-1 pol sequences from the E138A-positive subtype A cluster.
 
-Software
+4. Phylogenetic Analysis
+Software: IQ-TREE
+
+IQ-TREE command files and parameters used for maximum-likelihood phylogenetic reconstruction are provided.
+
+Software and Packages
 R
 gtsummary
 ggplot2
+dplyr
 Python
 pandas
 matplotlib
+numpy
+Phylogenetics
 IQ-TREE
 Reproducibility
-This repository contains the scripts required to reproduce the analyses and figures reported in the manuscript, "Molecular characterization of HIV-1 and reverse transcriptase drug resistance patterns from Faisalabad, an emerging HIV hotspot in Pakistan".
+This repository contains the scripts required to reproduce the analyses and figures reported in the manuscript.
+
+Author
+Muhammad Moaaz Anwar
+
+Department of Virology, Pakistan
