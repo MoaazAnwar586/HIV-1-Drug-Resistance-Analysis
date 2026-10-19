@@ -2,7 +2,7 @@
 
 This repository contains R and Python scripts used in the study:
 
-*Molecular characterization of HIV-1 and reverse transcriptase drug resistance patterns from Faisalabad, an emerging HIV hotspot in Pakistan.*
+*Molecular characterization of HIV-1 and reverse transcriptase drug resistance patterns in Faisalabad, an emerging HIV hotspot in Pakistan.*
 
 ---
 
